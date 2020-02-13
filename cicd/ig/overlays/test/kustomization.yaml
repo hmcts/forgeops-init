@@ -1,4 +1,0 @@
-patchesStrategicMerge:
-- ingress.yaml
-bases:
-- ../ship

@@ -1,6 +1,0 @@
-kind: ""
-apiversion: ""
-resources:
-- config-map.yaml
-- secret-platform.yaml
-- secret.yaml

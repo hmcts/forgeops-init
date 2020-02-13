@@ -1,6 +1,0 @@
-kind: ""
-apiversion: ""
-patchesStrategicMerge:
-- ingress.yaml
-bases:
-- ../../base

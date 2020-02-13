@@ -1,6 +1,0 @@
-kind: ""
-apiversion: ""
-patchesStrategicMerge:
-- configmap.yaml
-bases:
-- ../../base
