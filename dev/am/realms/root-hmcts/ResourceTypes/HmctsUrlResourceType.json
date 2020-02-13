@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "ResourceTypes",
+    "entityId" : "HmctsUrlResourceType",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "HmctsUrlResourceType",
+    "uuid" : "HmctsUrlResourceType",
+    "name" : "HmctsUrl",
+    "description" : "",
+    "patterns" : [ "*://*", "*://*:*/*", "*://*:*/*?*", "*://*?*" ],
+    "actions" : {
+      "HEAD" : true,
+      "DELETE" : true,
+      "POST" : true,
+      "GET" : true,
+      "OPTIONS" : true,
+      "PUT" : true,
+      "PATCH" : true
+    }
+  }
+}

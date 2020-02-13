@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "SecurID",
+    "entityId" : "SecurID",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "serverConfigPath" : "/opt/tomcat/openam/openam/auth/ace/data",
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "securid",
+      "name" : "SecurID",
+      "collection" : false
+    }
+  }
+}

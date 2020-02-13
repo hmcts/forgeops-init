@@ -1,0 +1,47 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Policies",
+    "entityId" : "CaseworkerMfaPolicy",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "CaseworkerMfaPolicy",
+    "name" : "CaseworkerMfaPolicy",
+    "active" : true,
+    "description" : "Require MFA for 'caseworker-sscs-dwpresponsewriter' users",
+    "applicationName" : "HmctsPolicySet",
+    "actionValues" : {
+      "HEAD" : false,
+      "DELETE" : false,
+      "POST" : false,
+      "GET" : false,
+      "OPTIONS" : false,
+      "PATCH" : false,
+      "PUT" : false
+    },
+    "resources" : [ "*://*", "*://*:*/*", "*://*:*/*?*", "*://*?*" ],
+    "subject" : {
+      "type" : "Identity",
+      "subjectValues" : [ "id=caseworker-sscs-dwpresponsewriter,ou=group,o=hmcts,ou=services,AMSTER{baseDN}" ]
+    },
+    "condition" : {
+      "type" : "NOT",
+      "condition" : {
+        "type" : "AuthLevel",
+        "authLevel" : 1
+      }
+    },
+    "resourceTypeUuid" : "HmctsUrlResourceType",
+    "resourceAttributes" : [ {
+      "type" : "Static",
+      "propertyName" : "mfaRequired",
+      "propertyValues" : [ "true" ]
+    } ],
+    "lastModifiedBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "lastModifiedDate" : "2019-10-17T12:16:12.450Z",
+    "createdBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "creationDate" : "2019-10-17T12:16:12.450Z"
+  }
+}

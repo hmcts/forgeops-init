@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "ScriptingEngineConfiguration",
+    "entityId" : "engineConfiguration",
+    "pathParams" : {
+      "contexts" : "OIDC_CLAIMS"
+    }
+  },
+  "data" : {
+    "_id" : "engineConfiguration",
+    "queueSize" : 10,
+    "useSecurityManager" : true,
+    "idleTimeout" : 60,
+    "blackList" : [ "java.lang.Class", "java.security.AccessController", "java.lang.reflect.*" ],
+    "coreThreads" : 10,
+    "whiteList" : [ "java.lang.Float", "java.util.HashMap$KeyIterator", "com.sun.identity.shared.debug.Debug", "java.lang.Double", "org.forgerock.openam.oauth2.OpenAMAccessToken", "java.util.HashMap$Entry", "java.util.HashMap", "java.lang.Character$Subset", "java.lang.Integer", "java.util.TreeSet", "java.util.ArrayList", "com.sun.identity.IdmType", "java.util.LinkedHashMap", "java.util.HashSet", "com.sun.identity.idm.AMIdentity", "java.lang.Character$UnicodeBlock", "java.lang.Character", "java.lang.Long", "java.lang.Short", "com.sun.identity.idm.IdRepoException", "org.forgerock.http.client.*", "java.lang.Math", "java.lang.Boolean", "java.lang.String", "java.lang.Byte", "java.util.LinkedList", "java.lang.Number", "java.lang.StrictMath", "java.util.LinkedHashSet", "java.lang.Void", "org.codehaus.groovy.runtime.GStringImpl", "groovy.json.JsonSlurper", "org.forgerock.oauth2.core.UserInfoClaims", "com.iplanet.sso.providers.dpro.SessionSsoToken", "com.sun.identity.idm.IdType", "java.util.LinkedHashMap$LinkedEntrySet", "java.util.LinkedHashMap$LinkedKeyIterator", "java.util.LinkedHashMap$Entry", "java.util.TreeMap", "org.forgerock.openam.sso.providers.stateless.StatelessSSOToken", "com.iplanet.sso.providers.dpro.SSOTokenImpl", "java.lang.Object", "com.sun.identity.IdmRepoException", "java.util.HashMap$Node" ],
+    "maxThreads" : 50,
+    "serverTimeout" : 0,
+    "_type" : {
+      "_id" : "engineConfiguration",
+      "name" : "Scripting engine configuration",
+      "collection" : false
+    }
+  }
+}

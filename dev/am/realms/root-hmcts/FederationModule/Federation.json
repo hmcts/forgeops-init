@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "FederationModule",
+    "entityId" : "Federation",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Federation",
+    "authenticationLevel" : 0,
+    "_type" : {
+      "_id" : "federation",
+      "name" : "Federation",
+      "collection" : true
+    }
+  }
+}

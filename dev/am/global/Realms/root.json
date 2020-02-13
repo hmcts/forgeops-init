@@ -1,0 +1,16 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Realms",
+    "entityId" : "Lw",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "Lw",
+    "parentPath" : null,
+    "active" : true,
+    "name" : "/",
+    "aliases" : [ "localhost", "AMSTER{lbFqdn}" ]
+  }
+}

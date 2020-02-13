@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "ResourceTypes",
+    "entityId" : "c789144d-b8bc-42ab-81cc-154a2a36098f",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "c789144d-b8bc-42ab-81cc-154a2a36098f",
+    "uuid" : "c789144d-b8bc-42ab-81cc-154a2a36098f",
+    "name" : "HmctsUrlResourceType",
+    "description" : "",
+    "patterns" : [ "*://*", "*://*:*/*", "*://*:*/*?*", "*://*?*" ],
+    "actions" : {
+      "HEAD" : true,
+      "DELETE" : true,
+      "POST" : true,
+      "GET" : true,
+      "OPTIONS" : true,
+      "PUT" : true,
+      "PATCH" : true
+    },
+    "createdBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "creationDate" : 1572259249319,
+    "lastModifiedBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "lastModifiedDate" : 1572259249319
+  }
+}

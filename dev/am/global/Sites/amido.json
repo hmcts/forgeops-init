@@ -1,0 +1,14 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Sites",
+    "entityId" : "amido",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "amido",
+    "url" : "https://AMSTER{lbFqdn}:8443/openam",
+    "secondaryURLs" : [ ]
+  }
+}

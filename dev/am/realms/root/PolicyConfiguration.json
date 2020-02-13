@@ -1,0 +1,35 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "policyHeartbeatInterval" : 10,
+    "bindDn" : "AMSTER{rootUserDN}",
+    "ldapServer" : [ "AMSTER{ds_cfg_host}:AMSTER{ds_cfg_port}" ],
+    "connectionPoolMinimumSize" : 1,
+    "usersSearchAttribute" : "uid",
+    "userAliasEnabled" : false,
+    "usersSearchFilter" : "(objectclass=inetorgperson)",
+    "searchTimeout" : 5,
+    "usersSearchScope" : "SCOPE_SUB",
+    "subjectsResultTTL" : 10,
+    "sslEnabled" : false,
+    "usersBaseDn" : "AMSTER{baseDN}",
+    "bindPassword" : "AMSTER{rootUserPassword}",
+    "connectionPoolMaximumSize" : 10,
+    "policyHeartbeatTimeUnit" : "SECONDS",
+    "maximumSearchResults" : 100,
+    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+    "checkIfResourceTypeExists" : true,
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    }
+  }
+}

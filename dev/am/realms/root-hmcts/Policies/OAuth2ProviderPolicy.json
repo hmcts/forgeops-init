@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Policies",
+    "entityId" : "OAuth2ProviderPolicy",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OAuth2ProviderPolicy",
+    "name" : "OAuth2ProviderPolicy",
+    "active" : true,
+    "description" : "",
+    "applicationName" : "OAuth2",
+    "actionValues" : {
+      "POST" : true,
+      "GET" : true
+    },
+    "resources" : [ "http://AMSTER{lbFqdn}:8080/openam/oauth2/hmcts/authorize?*" ],
+    "subject" : {
+      "type" : "AuthenticatedUsers"
+    },
+    "resourceTypeUuid" : "fb88c102-89f6-41d3-b1f1-85569824ba90",
+    "lastModifiedBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "lastModifiedDate" : "2019-10-28T10:40:49.448Z",
+    "createdBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "creationDate" : "2019-10-25T14:42:06.526Z"
+  }
+}

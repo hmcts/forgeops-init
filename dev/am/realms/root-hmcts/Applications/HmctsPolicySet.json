@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Applications",
+    "entityId" : "HmctsPolicySet",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "HmctsPolicySet",
+    "resourceTypeUuids" : [ "HmctsUrlResourceType" ],
+    "createdBy" : "id=idamOwner@hmcts.net,ou=user,AMSTER{baseDN}",
+    "conditions" : [ "LEAuthLevel", "Policy", "Script", "AuthenticateToService", "SimpleTime", "AMIdentityMembership", "OR", "IPv6", "IPv4", "SessionProperty", "AuthScheme", "AuthLevel", "NOT", "Transaction", "AuthenticateToRealm", "AND", "ResourceEnvIP", "LDAPFilter", "OAuth2Scope", "Session" ],
+    "resourceComparator" : null,
+    "creationDate" : null,
+    "lastModifiedBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "lastModifiedDate" : null,
+    "applicationType" : "iPlanetAMWebAgentService",
+    "subjects" : [ "Policy", "NOT", "OR", "JwtClaim", "AuthenticatedUsers", "AND", "Identity", "NONE" ],
+    "saveIndex" : null,
+    "searchIndex" : null,
+    "attributeNames" : [ ],
+    "editable" : true,
+    "entitlementCombiner" : "DenyOverride",
+    "displayName" : "HmctsPolicySet",
+    "description" : "Main HMCTS Policy Set",
+    "name" : "HmctsPolicySet"
+  }
+}

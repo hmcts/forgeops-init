@@ -1,0 +1,16 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "Realms",
+    "entityId" : "L2htY3Rz",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "L2htY3Rz",
+    "parentPath" : "/",
+    "active" : true,
+    "name" : "AMSTER{project}",
+    "aliases" : [ "AMSTER{hmcts_realm_dns_alias}" ]
+  }
+}

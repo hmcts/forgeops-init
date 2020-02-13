@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "ActiveDirectoryModule",
+    "entityId" : "ActiveDirectoryModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "",
+    "defaults" : {
+      "searchScope" : "SUBTREE",
+      "returnUserDN" : true,
+      "profileAttributeMappings" : [ ],
+      "userBindDN" : "AMSTER{rootUserDN}",
+      "userSearchAttributes" : [ "uid" ],
+      "connectionHeartbeatTimeUnit" : "MINUTES",
+      "userProfileRetrievalAttribute" : "uid",
+      "primaryLdapServer" : [ "AMSTER{primaryLdapServer}" ],
+      "openam-auth-ldap-connection-mode" : "LDAPS",
+      "connectionHeartbeatInterval" : 1,
+      "secondaryLdapServer" : [ ],
+      "userSearchStartDN" : [ "AMSTER{baseDN}" ],
+      "trustAllServerCertificates" : false,
+      "operationTimeout" : 0,
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "activedirectory",
+      "name" : "Active Directory",
+      "collection" : false
+    }
+  }
+}

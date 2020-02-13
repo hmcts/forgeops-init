@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/AMSTER{project}",
+    "amsterVersion" : "AMSTER{amsterVersion}",
+    "entityType" : "ResourceTypes",
+    "entityId" : "fb88c102-89f6-41d3-b1f1-85569824ba90",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "fb88c102-89f6-41d3-b1f1-85569824ba90",
+    "uuid" : "fb88c102-89f6-41d3-b1f1-85569824ba90",
+    "name" : "OAuth2",
+    "description" : "",
+    "patterns" : [ "*://*:*/*/authorize?*" ],
+    "actions" : {
+      "POST" : true,
+      "GET" : true
+    },
+    "createdBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "creationDate" : 1572014526279,
+    "lastModifiedBy" : "id=amadmin,ou=user,AMSTER{baseDN}",
+    "lastModifiedDate" : 1572259249334
+  }
+}
